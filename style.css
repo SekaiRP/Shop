@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "Cartwheel";
+  src: url('font/font.woff2') format('woff2'), url('font/font.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edfafa ;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  background-image: linear-gradient(144deg, #d4a0fa, #9d91e6 50%, #a5d9fa ); 
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #c2b0ff;
+}
+
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: inline-block;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+#animated-text{
+  display: inline-block;
+}
+
+.animated-letter {
+      font-size: 1em;
+      font-family: Cartwheel ;
+      color: #000 ;
+      opacity: 0;
+      display: inline-block;
+    }
+
+.search{
+  text-align :center ;
+}
+
+#searchBox {
+  text-align: center;
+  display: inline-block;
+  margin:1em ;
+  padding:.5em 1em ;
+  border :.1em solid #000 ;
+  border-radius :.7em ;
+  border-image: linear-gradient(144deg, #d4a0fa, #9d91e6 50%, #a5d9fa );
+  border-image-slice: 1;
+  transition: border-color 0.3s ease;
+}
+
+.sortbox{
+  text-align :center ;
+}
+#sort {
+  text-align: center;
+  display: inline-block;
+  margin:.2em ;
+  padding:.2em .1em ;
+  border :.1em solid #000 ;
+  border-radius :.7em ;
+  border-image: linear-gradient(144deg, #d4a0fa, #9d91e6 50%, #a5d9fa );
+  border-image-slice: 1;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+}
+
+.menu-product {
+    background-image: linear-gradient(144deg, #e6c7fc, #b8b0e8 50%, #c6e3f5 );
+    margin:.2em;
+    margin-top :2em;
+    border-radius:.5em;
+}
+
+.menu-product ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-product li {
+    display: inline-block;
+    width: 7em;
+    margin:.3em .1em;
+}
+
+.menu-product li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 1em .5em;
+    text-decoration: none;
+    background-color:#a5e4f2 ;
+    border-radius:.5em ;
+}
+
+.menu-product li a:hover {
+    background-image: linear-gradient(144deg, #e6c7fc, #b8b0e8 50%, #c6e3f5 );
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans-serif; 
+}
+
+.item {
+    width: calc(50% - 20px);
+    margin: 10px;
+    background-color: #f7fcfc ;
+    border :.03em solid ;
+    border-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border-image-slice: 1;
+    border-radius:1em;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border :.05em solid rgb(5, 6, 45);
+    border-radius:.2em;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.product-source {
+    margin:.4em;
+    font-size:.75em;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.buy-btn{
+    margin:.2em;
+    margin-top:.9em;
+}
+
+@media (max-width: 600px) {
+    .item {
+        width: calc(100% - 20px);
+    }
+} 
+
+
+
+.requestButton{
+    align-items: center;
+    background-image: linear-gradient(144deg, #d4a0fa, #9d91e6 50%, #a5d9fa );
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #000;
+    display: inline-block;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height:.3em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: .15em;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: .4em auto;
+}
+    
+.requestButton:active,
+.requestButton:hover {
+    outline: 0;
+}
+    
+.requestButton span {
+    display: inline-block;
+    background-color: #a5e4f2;
+    padding: 16px 3em;
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    transition: 300ms;
+}
+    
+.requestButton:hover span {
+    background: none;
+}
+    
+@media (min-width: 768px) {
+    .requestButton {
+    font-size: 24px;
+    min-width: 196px;
+}
+}
