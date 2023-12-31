@@ -384,7 +384,7 @@ var array = [
   "normal": 12.0,
   "rental": 2.4,
   "link": "https://telegram.me/RubyWalletBot?start=role_subarunatsuki"
- }
+ }, 
   {
   "name": "Chrollo Lucilfer",
   "img": "img/chrollolucilfer.jpg",
