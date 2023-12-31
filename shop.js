@@ -385,6 +385,78 @@ var array = [
   "rental": 2.4,
   "link": "https://telegram.me/RubyWalletBot?start=role_subarunatsuki"
  }
+  {
+  "name": "Chrollo Lucilfer",
+  "img": "img/chrollolucilfer.jpg",
+  "anime": "Hunter x Hunter",
+  "full": 21.0,
+  "normal": 12.0,
+  "rental": 2.4,
+  "link": "https://telegram.me/RubyWalletBot?start=role_chrollolucilfer"
+ },
+ {
+  "name": "Kurapika",
+  "img": "img/kurapika.jpg",
+  "anime": "Hunter x Hunter",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_kurapika"
+ },
+ {
+  "name": "Hisoka Morow",
+  "img": "img/hisokamorow.jpg",
+  "anime": "Hunter x Hunter",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_hisokamorow"
+ },
+ {
+  "name": "Killua Zoldyck",
+  "img": "img/killuazoldyck.jpg",
+  "anime": "Hunter x Hunter",
+  "full": 21.0,
+  "normal": 12.0,
+  "rental": 2.4,
+  "link": "https://telegram.me/RubyWalletBot?start=role_killuazoldyck"
+ },
+ {
+  "name": "Gilgamesh",
+  "img": "img/gilgamesh.jpg",
+  "anime": "Fate",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_gilgamesh"
+ },
+ {
+  "name": "Artoria Pendragon",
+  "img": "img/artoriapendragon.jpg",
+  "anime": "Fate",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_artoriapendragon"
+ },
+ {
+  "name": "Rangiku Matsumoto",
+  "img": "img/rangikumatsumoto.jpg",
+  "anime": "Bleach",
+  "full": 21.0,
+  "normal": 12.0,
+  "rental": 2.4,
+  "link": "https://telegram.me/RubyWalletBot?start=role_rangikumatsumoto"
+ },
+ {
+  "name": "Renji Abarai",
+  "img": "img/renjiabarai.jpg",
+  "anime": "Bleach",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_renjiabarai"
+ }
 ];
 
 function createProductItem(product) {
