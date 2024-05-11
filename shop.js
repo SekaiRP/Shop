@@ -456,6 +456,60 @@ var array = [
   "normal": 18.0,
   "rental": 3.6,
   "link": "https://telegram.me/RubyWalletBot?start=role_renjiabarai"
+ },
+ {
+  "name": "Yelan",
+  "img": "img/yelan.jpg",
+  "anime": "Genshin Impact",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_yelan"
+ },
+ {
+  "name": "Ganyu",
+  "img": "img/ganyu.jpg",
+  "anime": "Genshin Impact",
+  "full": 21.0,
+  "normal": 12.0,
+  "rental": 2.4,
+  "link": "https://telegram.me/RubyWalletBot?start=role_ganyu"
+ },
+ {
+  "name": "Denji",
+  "img": "img/denji.jpg",
+  "anime": "Chainsaw Man",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_denji"
+ },
+ {
+  "name": "Arlecchino",
+  "img": "img/arlecchino.jpg",
+  "anime": "Genshin Impact",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_arlecchino"
+ },
+ {
+  "name": "Furina",
+  "img": "img/furina.jpg",
+  "anime": "Genshin Impact",
+  "full": 21.0,
+  "normal": 12.0,
+  "rental": 2.4,
+  "link": "https://telegram.me/RubyWalletBot?start=role_furina"
+ },
+ {
+  "name": "Neuvillette",
+  "img": "img/neuvillette.jpg",
+  "anime": "Genshin Impact",
+  "full": 31.5,
+  "normal": 18.0,
+  "rental": 3.6,
+  "link": "https://telegram.me/RubyWalletBot?start=role_neuvillette"
  }
 ];
 
